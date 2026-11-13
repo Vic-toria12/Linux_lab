@@ -1,0 +1,121 @@
+    1  sudo apt update
+    2  sudo apt upgade
+    3  sudo apt upgrade
+    4  sudo apt install suricata
+    5  sudo tcpdump
+    6  ls /media
+    7  clear
+    8  sudo userdel agent007
+    9  clear
+   10  sudo adduser agent007
+   11  sudo usermode -aG sudo agent007
+   12  sudo apt upgrade
+   13  sudo apt updategrade
+   14  sudo apt update
+   15  sudo adduser student01
+   16  sudo usermode -aG sudo student01
+   17  sudo usermod -aG sudo student01
+   18  sudo userdel student01
+   19  sudo rm -rf /home/student01
+   20  clear
+   21  sudo adduser student01
+   22  sudo usermod -aG sudo student01
+   23  su - student01
+   24  su - student01
+   25  clear
+   26  mkdir linux_lab
+   27  cd linux_lab
+   28  mkdir docs scripts
+   29  touch readme.txt notes.txt script.sh
+   30  echo "Welcome to Linux Practice" > readme.txt
+   31  cp readme.txt docs/
+   32  mv notes.txt docs
+   33  rm script.sh
+   34  ls -R
+   35  nano readme.txt
+   36  head -n 3 readme.txt
+   37  tail -n 2 readme.txt
+   38  wc -w readme.txt
+   39  grep "Linux" readme.txt
+   40  touch secure.txt
+   41  chmod 640 secure.txt
+   42  chmod 777 secure.txt
+   43  sudo adduser student2
+   44  sudo chown student2 secure.txt
+   45  ls -l secure.txt
+   46  mkdir backup_test
+   47  touch backup_test/file1.txt backup_test/file2.txt backup_test/file3.txt
+   48  echo "This is file one" > backup_test/file1.txt                                     echo "This is file two" > backup_test/file2.txt\necho "This is file three" > backup_test/file3.txt\n
+   49  tar -cvf backup.tar backup_test
+   50  gzip backup.tar
+   51  mkdir restore_test
+   52  tar -xvzf backup.tar.gz -c restore_test
+   53  ls -R restore_test
+   54  tar -xvzf backup.tar.gz -C  restore_test/
+   55  ls -R restore_test
+   56  clear
+   57  sleep 300 &
+   58  jobs -1
+   59  jobs -l
+   60  fg %1
+   61  jobs -l
+   62  kill PID
+   63  kill 59132
+   64  ps aux | grep sleep
+   65  top
+   66  clear
+   67  ip a
+   68  ping google.com -c 4
+   69  ss -tulnp
+   70  hostname
+   71  sudo nano /etc/hosts
+   72  ping -c 4 testsites.local
+   73  cat /etc/hosts
+   74  ping -c 4 testsites.local
+   75  clear
+   76  find / -name readme.txt 2>/dev/null
+   77  grep -Rni --include="*.txt" "Linux" docs
+   78  find ~ -type f -mmin -1440
+   79  clear
+   80  find ~ -type f -name "*.txt" | wc -1
+   81  clear
+   82  find ~ -type f -name "*.txt" | wc -l
+   83  sudo apt update
+   84  sudo apt install tree -y
+   85  clear
+   86  tree --version
+   87  sudo apt remove tree -y
+   88  clear
+   89  dpkg -1 > package.txt
+   90  dpkg -l > package.txt
+   91  ls -l package.txt
+   92  head package.txt
+   93  clear
+   94  nano hello.sh
+   95  chmod +x hello.sh
+   96  ./hello.sh
+   97  clear
+   98  df -h
+   99  free -h
+  100  sudo tail -n 10 /var/log/syslog
+  101  sudo journalctl -n 10
+  102  uptime
+  103  who
+  104  lscpu
+  105  clear
+  106  git --version
+  107  git config --global user.name "Vic-toria12"
+  108  git config --global user.email "victoriaaneke43@gmail.com\n
+  109  git confih --global user.email "victoriaaneke43@gmail.com"
+  110  git config --global user.email "victoriaaneke43@gmail.com"
+  111  git config --global --list
+  112  cd ~/linux_lab
+  113  ls
+  114  git init
+  115  git add .
+  116  git status
+  117  git commit -m "first commit"
+  118  git branch -M main
+  119  git remote add origin https://github.com/Vic-toria12/Linux_lab.git
+  120  git push -u origin main
+  121  history

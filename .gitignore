@@ -1,0 +1,30 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.pid
+
+# Python / virtual environments (if later used)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment secrets
+.env
+.env.*
+
+# Keep required .txt files, packages.txt, evidence, and submission templates tracked.

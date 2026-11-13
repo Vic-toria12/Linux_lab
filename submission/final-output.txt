@@ -1,0 +1,22 @@
+Linux Practical Test — Final Notes
+
+Student name: [ENTER YOUR NAME]
+Linux distribution/version: [ENTER YOUR SYSTEM DETAILS]
+Date completed: [ENTER DATE]
+
+Activity 1: [RECORD ACTUAL RESULT]
+Activity 2: [RECORD ACTUAL RESULT]
+Activity 3: [RECORD ACTUAL RESULT]
+Activity 4: [RECORD ACTUAL RESULT]
+Activity 5: [RECORD ACTUAL RESULT]
+Activity 6: [RECORD ACTUAL RESULT]
+Activity 7: [RECORD ACTUAL RESULT]
+Activity 8: [RECORD ACTUAL RESULT]
+Activity 9: [RECORD ACTUAL RESULT]
+Activity 10: [RECORD ACTUAL RESULT]
+
+Steps not completed and reason, if any:
+[RECORD ACTUAL LIMITATIONS]
+
+Instructor-specific submission notes:
+[ADD ONLY IF PROVIDED]
